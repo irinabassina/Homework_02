@@ -25,7 +25,7 @@ int ThirdDigit(int number)
         return -1;
     }
 }
-Console.Write("Ведите число: ");
+Console.Write("Введите число: ");
 int number1 = Convert.ToInt32(Console.ReadLine());
  
 if (ThirdDigit(number1) == -1)
